@@ -76,7 +76,15 @@
 
   len(nombre) #### 6, trae la cantidad de caracteres que tiene una cadena 
   
-   
+  nombre [0:3] # isr , trae una subcada con los valores de rango indicado 
+
+  nombre [3:] #  ael 
+  
+  nombre [1:6:2] #sal , subcadena con cierta cantidad de pasos indicados 
+
+  nombre [1::3] #se , salta dos pasos hasta la pos indicada 
+  
+   nombre [::-1] #learsi , trae la cadena en forma inversa 
 
 
 
