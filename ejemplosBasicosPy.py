@@ -27,7 +27,7 @@
 
   verdad and falso #CONJUNCION ; ES VERDADERA SI AMBAS PROPOSICIONES LO SON 
 
-  verad or falso #DISYUNCION ; ES FALSA SI AMBAS PROPOSICIONES LO SON , CUALQUIER OTRO CASO VERDAD 
+  verdad or falso #DISYUNCION ; ES FALSA SI AMBAS PROPOSICIONES LO SON , CUALQUIER OTRO CASO VERDAD 
 
   not verdad # RETORNA False ; operador negacion de una proposicion 
 
@@ -57,6 +57,29 @@
 
 
   ###############################CIERRA CONVERSOR DE DIVISAS
+
+  ###TRABAJANDO CON CADENA DE CARACTERES 
+
+  nombre = "israel"
+
+  nombre=nombre.upper() #ISRAEL ,transforma una cadena en mayusculas
+
+  nombre=nombre.capitalize() # #Israel . transformaa la primera letra de la cadena en mayuscula
+
+  nombre=nombre.lower() # israel ,transforma una cadena en letras minusculas
+
+  nombre=nombre.strip() # borra espacios basura 
+
+  nombre = nombre.replace('a','o') # isroel remplaza una letra por la indicada 
+
+  nombre [2] # r ,  trae un valor de la posicion indicada en la cadena 
+
+  len(nombre) #### 6, trae la cantidad de caracteres que tiene una cadena 
+  
+   
+
+
+
 
 
 
